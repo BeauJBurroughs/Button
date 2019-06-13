@@ -1,0 +1,51 @@
+/* Better mobile view */
+@media screen and (max-width: 1000px) {
+    body {
+        zoom: 180%;
+        }
+}
+
+.button
+{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover
+{
+  background-color: green;
+  opacity: 0.5;
+}
+
+.button:active
+{
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(9px);
+}
+
+.button:focus
+{
+  background-color: green;
+}
+
+.toggle
+{
+  background-color: green;
+}
+
+.toggle:hover
+{
+  background-color: #1abc9c;
+  opacity: 0.5;
+}
